@@ -74,11 +74,62 @@
       <div class="col-lg-12">
         <div class="panel panel-primary">
           <div class="panel-heading">
+            <h3>Perulangan dengan while</h3>
+          </div>
+          <div class="panel-body">
+            <pre> &lt;?php<br>	$x = 1;<br>	while($x &lt;= 5) {<br>		echo &quot;The number is: $x &lt;br&gt;&quot;;<br>		$x++;<br>	}<br>?&gt; </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row">
+    <div class="container">
+      <div class="col-lg-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3>Perulangan dengan while dengan array</h3>
+          </div>
+          <div class="panel-body">
+            <pre> &lt;?php<br>	$array = [&quot;data1&quot;, &quot;data2&quot;, &quot;data3&quot;, &quot;data4&quot;, &quot;data5&quot;, &quot;data6&quot;];	<br>	$x = 1;<br>	while($x &lt; count($array)) {<br>	    <br>	    echo $array[$x];<br>	    $x++;<br>	}<br>?&gt; </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row">
+    <div class="container">
+      <div class="col-lg-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
             <h3>Perulangan dengan for</h3>
           </div>
           <div class="panel-body">
             <pre>&lt;?php <br>	$array = [&quot;data1&quot;, &quot;data2&quot;, &quot;data3&quot;, &quot;data4&quot;, &quot;data5&quot;, &quot;data6&quot;];	<br>	//<em>perulangan dengan for</em>
 	for ($i=0; $i &lt; count($array) ; $i++) { <br>		echo $array[$i].&quot;&lt;br&gt;&quot;;<br>	}<br> ?&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row">
+    <div class="container">
+      <div class="col-lg-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3>Perulangan dengan foreach</h3></div>
+          <div class="panel-body">
+            <pre>&lt;?php <br>	$array = [&quot;data1&quot;, &quot;data2&quot;, &quot;data3&quot;, &quot;data4&quot;, &quot;data5&quot;, &quot;data6&quot;];	<br>	//<em>perulangan dengan menggunakan foreach</em>
+	foreach ($array as $key =&gt; $value) {<br>		echo $value;<br>	}<br> ?&gt;</pre>
           </div>
         </div>
       </div>
